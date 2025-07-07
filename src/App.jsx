@@ -1,21 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Header from './components/Header';
+import Header from "src\components\Header\header.jsx"
 
 function App() {
-
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-       <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gray-50">
       <Header />
-      {/* Page content will go here */}
+      <main className="max-w-7xl mx-auto py-8 px-4">
+        <h1 className="text-4xl font-bold text-center">
+          Welcome to Design Mumbai
+        </h1>
+        <p className="text-center text-gray-600 mt-4">
+          Your website is taking shape! 🚀
+        </p>
+      </main>
     </div>
-    </>
   )
-  
 }
 
 export default App
