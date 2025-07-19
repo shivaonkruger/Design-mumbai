@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+
+@font-face {
+    font-family: brokman;
+    src: url(../src/assets/brockmann-regular-Cn4_Qf0d.ttf);
+}
+@theme{
+ --font-brokman:brokman;
+}
+body{
+    font-family: brokman;
+}
